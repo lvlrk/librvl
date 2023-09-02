@@ -1,9 +1,15 @@
 #include <sys/stat.h>
 #include "rvl.h"
 
+// rvl demo
+
 int main(int argc, char **argv) {
+    // this shit extracts the contents of the brres
+    // to ./{resource}(NW4R)/{name}
+    // (probably should extract to ./{brresfile}.d/{resource}(NW4R)/{name})
+    
     if(argc < 2) {
-        fputs("Usage: rvl <brresfile(s)> ...\n", stderr);
+        fputs("Usage: rvld <brresfile(s)> ...\n", stderr);
         return 1;
     }
 

@@ -1,5 +1,5 @@
 # librvl (v0)
-A simple, header-only library to manipulate
+A header-only library to manipulate
 Wii Standard file formats.
 
 # info
